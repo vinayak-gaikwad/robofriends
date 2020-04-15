@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import Card from './Card';
+import App from './App';
+
 import 'tachyons';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card /> 
+  	
+  	<App />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -16,3 +19,4 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+															
